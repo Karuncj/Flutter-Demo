@@ -35,7 +35,7 @@ class _MyWidgetState extends State<App
         TextButton(
           child:Text("Changed text"),
           onPressed: (){
-          str="hi";
+          str="Button is Pressed";
           setState((){});
       },
       ),
